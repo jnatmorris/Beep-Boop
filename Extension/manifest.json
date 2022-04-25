@@ -1,0 +1,13 @@
+{
+    "name": "Beep Boop",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+
+    "description": "A small extension to beep all other uses who have the extension initialized",
+
+    "permissions": ["notifications"]
+}
