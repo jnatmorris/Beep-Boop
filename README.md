@@ -1,10 +1,10 @@
 # Beep-Boop
 
-## Definition
+## Information
 
 Leaning by doing, this is my first chrome extension. A simplistic extension pings all other users who have the extension initialized when the button is clicked. This extension too works on chromium based browsers. For example, [Brave](https://brave.com/).
 
-## Information
+## Installation
 
 Broken into two sections, the extension and the backend server.
 
