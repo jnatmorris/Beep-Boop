@@ -4,17 +4,7 @@
 
 Leaning by doing, this is my first chrome extension. A simplistic extension that pings all other users who have the extension initialized when you click the button. This extension too works on chromium based browsers. For example, [Brave](https://brave.com/).
 
-Technology:
-
--   Server
-
-    -   Typescript [socket.io](https://socket.io/) server
-
--   Extension
-
-    -   Plane HTML
-    -   [socket.io](https://socket.io/) client
-    -   [tailwindcss](https://tailwindcss.com/) for CSS
+Server was built with Typescript and a [socket.io](https://socket.io/) server. Extension was consists of plane HTML, a [socket.io](https://socket.io/) client and [tailwindcss](https://tailwindcss.com/) for CSS.
 
 <strong>Note:</strong>
 As stated [here](https://developer.chrome.com/docs/apps/contentSecurityPolicy/#resourceLoading), using CDNs is not best practice for including scripts. As such, a minified version of [socket.io](https://socket.io/) and [tailwindcss'](https://tailwindcss.com/) playground script have been added within the project. Due to this project being a proof of concept, and not intended for production, I have included the tailwindcss script rather than building the CSS.
