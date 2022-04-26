@@ -30,6 +30,6 @@ yarn dev
 Note: To receive notifications that someone has booped you, you must have notifications enabled in your browser and computer settings. This includes not having a variation of silent mode enabled.
 
 1. Navigate to the extension settings. This may vary based on which chromium based browser being used.
-2. Enable the developer mode toggle
-3. Click on the Load Unpacked button and select the Extensions folder
+2. Enable the `developer mode` toggle
+3. Click on the `Load Unpacked` button and select the Extensions folder
 4. The extension is now installed
