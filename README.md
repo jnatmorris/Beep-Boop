@@ -11,7 +11,7 @@ As stated [here](https://developer.chrome.com/docs/apps/contentSecurityPolicy/#r
 
 Broken into two sections, the extension and the backend server.
 
-### To run the server:
+### To Run the Server:
 
 1. Download packages
 
@@ -25,7 +25,7 @@ yarn install
 yarn dev
 ```
 
-### Install the extension
+### To Install the Extension
 
 Note: To receive notifications that someone has booped you, you must have notifications enabled in your browser and computer settings. This includes not having a variation of silent mode enabled.
 
