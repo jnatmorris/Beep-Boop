@@ -4,13 +4,13 @@
 
 Leaning by doing, this is my first chrome extension. A simplistic extension that pings all other users who have the extension initialized when you click the button. This extension too works on chromium based browsers. For example, [Brave](https://brave.com/).
 
-### Built using:
+### Built with:
 
-#### Server
+Server
 
 -   Typescript [socket.io](https://socket.io/) server
 
-#### Extension
+Extension
 
 -   Plane HTML
 -   [socket.io](https://socket.io/) client
