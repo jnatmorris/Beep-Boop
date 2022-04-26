@@ -25,7 +25,7 @@ yarn install
 yarn dev
 ```
 
-### To Install the Extension
+### To Install the Extension:
 
 Note: To receive notifications that someone has booped you, you must have notifications enabled in your browser and computer settings. This includes not having a variation of silent mode enabled.
 
