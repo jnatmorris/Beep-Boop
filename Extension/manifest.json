@@ -4,7 +4,13 @@
     "manifest_version": 3,
     "action": {
         "default_popup": "index.html",
-        "default_icon": "icon.png"
+        "default_icon": "img/icon128.png"
+    },
+    "icons": {
+        "32": "img/icon32.png",
+        "64": "img/icon64.png",
+        "128": "img/icon128.png",
+        "256": "img/icon256.png"
     },
 
     "description": "A small extension to beep all other uses who have the extension initialized",
