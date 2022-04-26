@@ -1,5 +1,5 @@
 // connect to the server
-const socket = io("https://localhost:3000");
+const socket = io("http://localhost:3000/");
 
 // emit beep to server
 beepBtn.addEventListener("click", function () {
@@ -9,8 +9,8 @@ beepBtn.addEventListener("click", function () {
 socket.on("boop", () => {
     chrome.notifications.create(`beepID-${Date.now()}`, {
         type: "basic",
-        title: "Boop!",
-        message: "Someone has booped you!",
+        title: "Beep!",
+        message: "Someone has beeped you!",
         iconUrl: "img/icon256.png",
     });
 });
