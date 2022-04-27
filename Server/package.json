@@ -1,18 +1,31 @@
 {
     "name": "beep-boop-server",
+    "description": "Server for extension to beep (ping) all other uses who have the extension initialized.",
+    "author": {
+        "name": "JNat07",
+        "url": "https://github.com/JNat07"
+    },
     "version": "1.0.0",
     "main": "index.ts",
     "license": "MIT",
+    "private": "true",
+    "keywords": [
+        "Typescript",
+         "Socket.io"
+    ],
+
+    "scripts": {
+        "dev": "nodemon index.ts"
+    },
+
     "dependencies": {
         "nodemon": "^2.0.15",
         "socket.io": "^4.4.1",
         "ts-node": "^10.7.0",
         "typescript": "^4.6.3"
     },
-    "scripts": {
-        "dev": "nodemon index.ts"
-    },
+    
     "devDependencies": {
         "prettier": "^2.6.2"
-    }
+    }    
 }
